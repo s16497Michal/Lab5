@@ -4,4 +4,12 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>GdanskResponse</servlet-name>
+    <servlet-class>web.GdanskResponse</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GdanskResponse</servlet-name>
+    <url-pattern>/gdansk-weather</url-pattern>
+  </servlet-mapping>
 </web-app>
