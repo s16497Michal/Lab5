@@ -5,11 +5,59 @@
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
   <servlet>
+    <servlet-name>CracowResponse</servlet-name>
+    <servlet-class>web.CracowResponse</servlet-class>
+  </servlet>
+  <servlet>
     <servlet-name>GdanskResponse</servlet-name>
     <servlet-class>web.GdanskResponse</servlet-class>
   </servlet>
+  <servlet>
+    <servlet-name>KatowiceResponse</servlet-name>
+    <servlet-class>web.KatowiceResponse</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LodzResponse</servlet-name>
+    <servlet-class>web.LodzResponse</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PoznanResponse</servlet-name>
+    <servlet-class>web.PoznanResponse</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>WarsawResponse</servlet-name>
+    <servlet-class>web.WarsawResponse</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>WroclawResponse</servlet-name>
+    <servlet-class>web.WroclawResponse</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CracowResponse</servlet-name>
+    <url-pattern>/cracow-weather</url-pattern>
+  </servlet-mapping>
   <servlet-mapping>
     <servlet-name>GdanskResponse</servlet-name>
     <url-pattern>/gdansk-weather</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>KatowiceResponse</servlet-name>
+    <url-pattern>/katowice-weather</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LodzResponse</servlet-name>
+    <url-pattern>/lodz-weather</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PoznanResponse</servlet-name>
+    <url-pattern>/poznan-weather</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WarsawResponse</servlet-name>
+    <url-pattern>/warsaw-weather</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WroclawResponse</servlet-name>
+    <url-pattern>/wroclaw-weather</url-pattern>
   </servlet-mapping>
 </web-app>

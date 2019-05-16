@@ -12,7 +12,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class WeatherClient {
-    final String API_KEY = "643ad913e2f4fbfbf72c77892414af90";
+    private final String API_KEY = "643ad913e2f4fbfbf72c77892414af90";
 
     private Map<String, Object> jsonToMap(String str) {
         Map<String, Object> map = new Gson().fromJson(
